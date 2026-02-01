@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Password Modal -->
+    <div class="password-modal" id="passwordModal">
+        <div class="password-content">
+            <h2>Enter the secret code</h2>
+            <input type="password" class="password-input" id="passwordInput" placeholder="Our special word...">
+            <button class="submit-btn" id="submitPassword">Enter</button>
+        </div>
+    </div>
+    
+    <!-- Welcome Screen -->
+    <div class="welcome-screen" id="welcomeScreen">
+        <h1 class="welcome-message">Welcome my love, enjoy your stay</h1>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="container" id="mainContent" style="display: none;">
+        <div class="tabs">
+            <button class="tab active" data-tab="love-letter">
+                <span>❤️</span> Love Letter
+            </button>
+            <button class="tab" data-tab="music">
+                <span>🎵</span> Music
+            </button>
+            <button class="tab" data-tab="notes">
+                <span>📝</span> Notes
+            </button>
+            <button class="tab" data-tab="gallery">
+                <span>🌷</span> Gallery
+            </button>
+        </div>
+        
+        <div class="content-area">
+            <!-- Love Letter Tab -->
+            <div class="tab-content active" id="love-letter">
+                <h2>My Dearest</h2>
+                <div class="letter" id="loveLetter">
+                    <div class="letter-header">
+                        <h3>A Letter For You</h3>
+                        <span>👇 Click to open</span>
+                    </div>
+                    <div class="letter-content">
+                        <p>My love,</p>
+                        <p>Every day with you feels like a beautiful dream that I never want to wake up from. Your smile brightens my darkest days, and your laughter is my favorite melody.</p>
+                        <p>I cherish every moment we spend together, from our silly inside jokes to our deep conversations under the stars. You've shown me what true happiness feels like, and I'm forever grateful to have you in my life.</p>
+                        <p>No matter where life takes us, always remember that my heart belongs to you.</p>
+                        <p>Forever yours,</p>
+                        <p>Me</p>
+                    </div>
+                </div>
+            </div>
+            
+<!-- Music Tab -->
+<div class="tab-content" id="music">
+    <h2>Songs that remind me of you</h2>
+
+    <div class="song-list">
+
+        <div class="song">
+            <img class="portada" src="photos/fearless.jpg">
+            <div class="song-info">
+                <h4>THE WAY I LOVED YOU</h4>
+                <p>by Taylor Swift</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/twily.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/lanita.jpg">
+            <div class="song-info">
+                <h4>GUNS AND ROSES</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco2.png">
+             <audio class="audio">
+              <source src="music/gar.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/tloasg.jpg">
+            <div class="song-info">
+                <h4>RUIN THE FRIENDSHIP</h4>
+                <p>by Taylor Swift</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/rtf.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/bb.jpg">
+            <div class="song-info">
+                <h4>IF YOU LIED DOWN WITH ME</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/iyldwm.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/lfl.jpg">
+            <div class="song-info">
+                <h4>WHITE MUSTANG</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco2.png">
+             <audio class="audio">
+              <source src="music/wm.mp3" type="audio/mpeg">
+             </audio>        
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/lfl.jpg">
+            <div class="song-info">
+                <h4>SUMMER BUMMER</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/sm.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/lfl.jpg">
+            <div class="song-info">
+                <h4>GOD BLESS AMERICA</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/gba.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/lfl.jpg">
+            <div class="song-info">
+                <h4>TOMORROW NEVER CAME</h4>
+                <h4>ALTERNATIVE VERSION</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/Tomorrow Never Came (Alternative Version).mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/ocean.jpg">
+            <div class="song-info">
+                <h4>LET THE LIGHT IN</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/ltl.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/nfr.jpg">
+            <div class="song-info">
+                <h4>HOW TO DISAPPEAR</h4>
+                <p>by Lana Del Rey</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco2.png">
+                <audio class="audio">
+                <source src="music/htd.mp3" type="audio/mpeg">
+                </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/ttpd.jpg">
+            <div class="song-info">
+                <h4>FRESH OUT THE SLAMMER</h4>
+                <p>by Taylor Swift</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+            <audio class="audio">
+              <source src="music/fots.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/nnn.jpg">
+            <div class="song-info">
+                <h4>BLANK SPACE</h4>
+                <p>by Taylor Swift</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+             <audio class="audio">
+              <source src="music/bs.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/folk.jpg">
+            <div class="song-info">
+                <h4>AUGUST</h4>
+                <p>by Taylor Swift</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+                <audio class="audio">
+                <source src="music/a.mp3" type="audio/mpeg">
+                </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/frdavid.jpg">
+            <div class="song-info">
+                <h4>WORDS</h4>
+                <p>by F.R. David</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco.png">
+                <audio class="audio">
+                <source src="music/w.mp3" type="audio/mpeg">
+                </audio>
+        </div>
+
+        <div class="song">
+            <img class="portada" src="photos/gilbert.jpg">
+            <div class="song-info">
+                <h4>ALONE AGAIN</h4>
+                <p>by Gilbert O'Sullivan</p>
+            </div>
+            <div class="controls">
+            <img class="buttons back" src="photos/b1.png">
+            <img class="button play-btn" src="photos/b3.png">
+            <img class="buttonp pause-btn" src="photos/b4.png">
+            <img class="buttons forward" src="photos/b2.png">
+            </div>
+            <img class="play disco" src="photos/disco2.png">
+                <audio class="audio">
+                <source src="music/aa.mp3" type="audio/mpeg">
+                </audio>
+        </div>
+
+    </div>
+</div>
+            
+            <!-- Notes Tab -->
+            <div class="tab-content" id="notes">
+                <h2>Some reminders</h2>
+                <div class="note">
+                    <p>Take care always</p>
+                </div>
+                <div class="note">
+                    <p>Eat on time</p>
+                </div>
+                <div class="note">
+                    <p>You're mine.. always</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Tab -->
+            <div class="tab-content" id="gallery">
+                <h2>Flowers for you</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1eaad721-3375-4d97-a5fa-cbf8a87d60b8.png" alt="Bouquet of delicate pink roses with soft green leaves">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/73632299-5dde-4ded-805a-88a7dcb4b5e4.png" alt="Beautiful pink tulips in a glass vase with morning dew">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e9890063-b481-46f6-97a1-9fc753211e19.png" alt="Fluffy pink peony flowers with lush foliage">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4bc3dffd-4971-4223-b7e4-3699d2b97bbe.png" alt="Branch of pink cherry blossoms against a blue sky">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d0daff3c-1751-492b-9b74-de28ac48d384.png" alt="Cluster of light pink carnations with delicate petals">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/51f3ca74-2471-403f-bb99-751536acd7d9.png" alt="Vibrant pink azalea flowers covering a garden bush">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Decorative elements -->
+    <div class="heart" style="top: 10%; left: 5%;">❤️</div>
+    <div class="heart" style="top: 20%; right: 10%;">❤️</div>
+    <div class="heart" style="bottom: 15%; left: 15%;">❤️</div>
+    <div class="teddy-bear" style="top: 30%; left: 10%;">🧸</div>
+    <div class="teddy-bear" style="bottom: 10%; right: 5%;">🧸</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
